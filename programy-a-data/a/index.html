@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+    <title>Programové a datové soubory</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Záhlaví-->
+    <link rel="stylesheet" href="../style.css">
+    <header class="jumbotron text-center bg-warning">
+        <h1 class="display-3 text-white text-uppercase">Programy a data</h1>
+        <h2 class="display-4">Programové a datové soubory</h2>
+
+    </header>
+    <!-- Hlavní část stránky-->
+    <main class="container">
+        <div class="row">
+            <div class="col-md-6">
+
+                <h4>Soubor</h4>
+                <p> (<em>file</em>) je množina souvisejících dat uložených na diskové jednotce. Název souboru je obvykle tvořen
+                    jménem (ve Windows až 254 znaků) a příponou, která naznačuje <strong>typ souboru</strong>. K dalším vlastnostem
+                    souboru patří jeho velikost, autor (vlastník), datum vytvoření, datum změny, atributy, přístupová práva
+                    apod. </p>
+
+
+                <h4>Adresáře</h4>
+                <p>
+                    K přehlednější práci se soubory slouží systém <strong>adresářů</strong> či složek (<em>directories, folders</em>).
+                    Adresáře tvoří na disku typicky hierarchickou strukturu (<em>tree</em> - strom); základem je tzv. <strong>kořenový adresář</strong>                    (<em>root</em>) označený symbolem „/“ (Unix, Linux), nebo „\“ (Windows). Každý adresář může obsahovat
+                    soubory i <strong>podadresáře</strong> (<em>subdirectories</em>). </p>
+
+
+                <p><small><strong>Cesta</strong> (<em>path</em>) vyjadřuje umístění souboru vždy směrem od nejvyššího adresáře: <em>C:\XAMPP\mysql\bin\mysql.exe.</em> Pro operace
+            se soubory využíváme někdy <strong>zástupné znaky</strong> (<em>wildcards</em>): ▫ symbol <strong>*</strong> nahrazuje v názvu libovolný počet znaků (např.
+            *.*); ▫ symbol <strong>?</strong> nahrazuje jeden libovolný znak (např. s?s.txt).</small></p>
+
+
+                <h4>Programové soubory</h4>
+                <p>obsahují instrukce, podle nichž procesor ve spolupráci s dalšími hardwarovými komponentami plní konkrétní
+                    úlohy. Mohou být uloženy v již zkompilované binární podobě (nejčastěji ve
+                    <strong>strojovém kódu</strong> pro danou platformu), nebo ve <strong>zdrojovém kódu</strong>, obsahujícím
+                    příkazy určitého programovacího jazyka. Mezi programové soubory můžeme zařadit také <strong>skripty</strong>,
+                    soubory instrukcí v textové podobě, které ke svému spuštění vyžadují speciální program - <strong>interpret.</strong></p>
+
+            </div>
+
+            <div class="col-md-6">
+                <h4>Programové knihovny</h4>
+                <p><small>Větší programy jsou tvořeny <strong>programovými knihovnami</strong> (runtime libraries), speciálními soubory s připravenými funkcemi,
+            které programy využívají pro svůj běh. Ve Windows to jsou např. soubory DRV a SYS (obsahující zejména ovladače
+            čili drivery, ale i systémové funkce), nebo také <strong>DLL</strong> (dynamic linking library - dynamicky linkované knihovny),
+            které mohou být podle potřeby za běhu (dynamicky) připojeny k jednomu i více programům.</small> </p>
+
+
+                <p><small>Některé soubory s tzv. <strong>spustitelnou příponou</strong> (např. .exe a .com ve Windows, .sh v Linuxu) slouží ke spuštění programu
+            - aktivaci procesu v rámci operačního systému. Za <strong>rezidentní programy</strong> (služby, démony) označujeme ty procesy,
+            které jsou spuštěny automaticky po iniciaci operačního systému (např. antivirové programy).</small></p>
+
+                <h4>Datové soubory</h4>
+                <p>obsahují data různého charakteru (číselné, textové, grafické, zvukové údaje). K jejich zpracování se používají
+                    konkrétní programy, a proto jsou často přípony těchto datových souborů asociovány (propojeny) s určitou
+                    aplikací (např. DOCX s programem MS Word, nebo XLSX s programem MS Excel). </p>
+
+                <img src="../img/datove_soubory.png" alt="datove soubory">
+            </div>
+        </div>
+    </main>
+    <!-- Zápatí-->
+    <footer class="text-center">
+        <hr>
+        <p class="text-muted">&copy; 2018 - Libor Štrohalm, IT1</p>
+        <a href="../uvod/index.html">Zpět na hlavní stranu</a>
+    </footer>
+</body>
+</html>

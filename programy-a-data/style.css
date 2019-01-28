@@ -1,0 +1,26 @@
+header.bg-primary {
+    background-color: royalblue !important;
+    background-image: url ('img/linux.png');
+}
+h1.text-white {
+    color: red !important;
+}
+.lojza {
+    color #00aa00;
+
+}
+h4{
+text-align:center;
+    color:violet !important;
+}
+a {
+    color: red;
+    text-decoration: none;
+    padding: 10px
+}
+a:hover {
+    display: block;
+    color: green;
+    text-decoration: underline;
+    font-size: 120%
+}
